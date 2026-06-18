@@ -1,0 +1,88 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== 虚拟环境 =====
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ===== 环境变量与密钥（禁止提交）=====
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+
+# ===== 评估结果输出（保留目录，忽略内容）=====
+results/*.json
+results/*.log
+results/run.log
+
+# ===== 项目内部文档（禁止上传 GitHub）=====
+docs/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== 测试与覆盖率 =====
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+*.tmp
+*.bak
+
+# ===== Type Checker =====
+.mypy_cache/
+.pyre/
+.pytype/
