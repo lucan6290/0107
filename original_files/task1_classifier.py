@@ -8,7 +8,7 @@ import json
 import openai
 
 # API 配置
-openai.api_key = "sk-proj-abc123def456ghi789jkl012mno345pqr678stu901vwx234"
+openai.api_key = "sk-QXVJTsFMlI0v4jJqYI8jSCN44j9KoJRhhgvXDR2nK35mK6VN"
 MODEL = "gpt-4o-mini"
 
 def classify_question(question: str) -> str:
