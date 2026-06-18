@@ -13,9 +13,6 @@ venv/
 results/*.json
 results/*.log
 
-# ===== 项目内部文档（禁止上传 GitHub）=====
-docs/
-
 # ===== IDE 与本地工具 =====
 .idea/
 .vscode/
